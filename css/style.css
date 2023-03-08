@@ -83,7 +83,8 @@ li {
 /*********Main**********/
 
 .marginMain {
-    margin: 150px auto;
+    margin-top: 120px;
+    margin-bottom: 70px;
 }
 
 .positionR {
