@@ -26,11 +26,16 @@
     margin: 0 auto;
 }
 
+/********header*********/
+
 header {
     background-color: #ff6900;
     color: white;
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 nav {
@@ -66,4 +71,54 @@ li {
 
 .areaPersonale > i:nth-child(2) {
     margin: 0 10px;
+}
+
+/********header*********/
+
+/*********Main**********/
+
+.marginMain {
+    margin: 150px auto;
+}
+
+.positionR {
+    position: relative;
+}
+
+.prodotto {
+    height: 650px;
+    width: 440px;
+}
+
+.prodotto > img {
+    height: 650px;
+    width: 440px;
+    position: absolute;
+}
+
+.sconto {
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 0;
+    bottom: 40px;
+    padding: 0.2em 0.5em;
+}
+
+.sostenibile {
+    position: absolute;
+    background-color: green;
+    color: white;
+    left: 60px;
+    bottom: 40px;
+    padding: 0.2em 0.5em;
+}
+
+.cuore {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    color: black;
+    font-size: 40px;
 }
