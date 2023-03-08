@@ -26,6 +26,10 @@
     margin: 0 auto;
 }
 
+.flexWrap {
+    flex-wrap: wrap;
+}
+
 /********header*********/
 
 header {
@@ -86,14 +90,15 @@ li {
 }
 
 .prodotto {
-    height: 650px;
-    width: 440px;
+    height: 500px;
+    width: 340px;
 }
 
 .prodotto > img {
-    height: 650px;
-    width: 440px;
+    height: 500px;
+    width: 340px;
     position: absolute;
+    background-size: cover;
 }
 
 .prodotto > .foto2:hover {
@@ -132,4 +137,25 @@ li {
 
 .prodotto > .cuore:hover {
     color: red;
+}
+
+.descrizione {
+    margin-bottom: 50px;
+}
+
+small {
+    color: gray;
+}
+
+.prezzoScontato {
+    color: red;
+}
+
+.prezzo {
+    text-decoration: line-through;
+}
+
+section:nth-of-type(3n+2) {
+    margin-left: 10px;
+    margin-right: 10px;
 }
