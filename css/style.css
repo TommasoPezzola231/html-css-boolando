@@ -96,6 +96,10 @@ li {
     position: absolute;
 }
 
+.prodotto > .foto2:hover {
+    opacity: 0;
+}
+
 .sconto {
     position: absolute;
     background-color: red;
@@ -103,6 +107,7 @@ li {
     left: 0;
     bottom: 40px;
     padding: 0.2em 0.5em;
+    z-index: 3;
 }
 
 .sostenibile {
@@ -112,6 +117,7 @@ li {
     left: 60px;
     bottom: 40px;
     padding: 0.2em 0.5em;
+    z-index: 3;
 }
 
 .cuore {
@@ -121,4 +127,9 @@ li {
     background-color: white;
     color: black;
     font-size: 40px;
+    z-index: 3;
+}
+
+.prodotto > .cuore:hover {
+    color: red;
 }
