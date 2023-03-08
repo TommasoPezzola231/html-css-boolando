@@ -126,6 +126,10 @@ li {
     z-index: 3;
 }
 
+#cheat {
+    left: 0;
+}
+
 .cuore {
     position: absolute;
     top: 10px;
@@ -142,6 +146,10 @@ li {
 
 .descrizione {
     margin-bottom: 50px;
+}
+
+small ~ p {
+    font-weight: bold;
 }
 
 small {
